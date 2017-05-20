@@ -1,0 +1,127 @@
+[
+  {
+    "description": "  As a grocery shopper\n  I want to add an item to my grocery list\n  So that I can remember to buy that item at the grocery store",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Shopper can add an item to their Grocery List",
+    "tags": [],
+    "uri": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\features\\grocery.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Item added to grocery list",
+        "tags": [],
+        "id": "shopper-can-add-an-item-to-their-grocery-list;item-added-to-grocery-list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have an empty grocery list",
+            "result": {
+              "status": "pending"
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add an item to the list",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The grocery list contains a single item",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\support\\hooks.ts:28"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Item accessible from grocery list",
+        "tags": [],
+        "id": "shopper-can-add-an-item-to-their-grocery-list;item-accessible-from-grocery-list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have an empty grocery list",
+            "result": {
+              "status": "pending"
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add an item to the list",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can access that item from the grocery list",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\steps\\grocery.steps.ts:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\tests\\ng2\\cli\\tdd_spike\\cucumber\\support\\hooks.ts:28"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "shopper-can-add-an-item-to-their-grocery-list"
+  }
+]
