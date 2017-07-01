@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "bdd": "ng e2e -p 4200 -wu --watch -c protractor-cucumber.conf.js"
+    "bdd": "ng e2e -p 4200 -wu --watch -c protractor-cucumber.conf.ts"
   },
   "private": true,
   "dependencies": {
@@ -29,9 +29,13 @@
     "@angular/cli": "1.0.4",
     "@angular/compiler-cli": "^4.0.0",
     "@types/chai": "^3.5.2",
+    "@types/chai-as-promised": "0.0.30",
+    "@types/cucumber": "^2.0.1",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
+    "@types/selenium-webdriver": "^3.0.4",
     "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "codelyzer": "~2.0.0",
     "cucumber": "^2.1.0",
     "cucumber-html-reporter": "^0.4.2",

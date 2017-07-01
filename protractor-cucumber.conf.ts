@@ -1,7 +1,11 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
-'use script';
-exports.config = {
+/*jslint es6 */
+import {
+  browser,
+  Config
+} from 'protractor';
+export let config: Config = {
   allScriptsTimeout: 11000,
   specs: [
     './cucumber/features/**/*.feature'

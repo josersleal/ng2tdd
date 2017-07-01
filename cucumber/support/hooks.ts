@@ -1,7 +1,7 @@
 const Cucumber = require('cucumber');
 import { browser } from 'protractor';
 import * as fs from 'fs';
-// import { config } from './../../../protractor-cucumber-cli.conf.js';
+import { config } from '../../protractor-cucumber.conf';
 import { defineSupportCode } from 'cucumber';
 import * as reporter from 'cucumber-html-reporter';
 import { mkdirp } from 'mkdirp';
@@ -21,7 +21,9 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
         // is not taking the env parameter (investigate new angularcli v1 settings)
         // browser.get(browser.baseUrl);
         // browser.get(browser.params.baseUrl);
-        browser.get('http://localhost:4200/');
+        browser.get(config.baseUrl);
+
+        // browser.get('http://localhost:4200/');
         // browser.waitForAngularEnabled(true);
         setTimeout(callback, 5000);
     });
